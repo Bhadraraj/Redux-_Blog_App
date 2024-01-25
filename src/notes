@@ -1,0 +1,7 @@
+// step 1: create slice and add array data ;
+// step 2: import post slice  it in a store 
+// create postList and map the post data 
+// To add Post - when action trigers --> create postAdded reducer in post slice;
+// create add post Form to add the post Data
+// while click add post dispatch the action , also import nanoid to define the unique id in add post with a structured form 
+//  next  remove unique id formate in add post ,and add it in a postSlice 
