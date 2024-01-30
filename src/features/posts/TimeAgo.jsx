@@ -9,8 +9,8 @@ const TimeAgo = ({ timestamp }) => {
     }
 
     return (
-        <span title={timestamp}>
-            &nbsp; <i>{timeAgo}</i>
+        <span className='dateTime' title={timestamp} >
+           <i>{timeAgo}</i>
         </span>
     )
 }

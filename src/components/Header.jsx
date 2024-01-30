@@ -15,11 +15,11 @@ const Header = () => {
                     <li><Link to="post">Post</Link></li>
                     <li><Link to="user">Users</Link></li>
                 </ul>
-                <button
+                {/* <button className="countBtn"
                     onClick={() =>
                         dispatch(increaseCount())
                     }
-                >{count}</button>
+                >{count}</button> */}
             </nav>
         </header>
     )
