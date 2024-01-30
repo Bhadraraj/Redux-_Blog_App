@@ -23,7 +23,6 @@ const usersSlice = createSlice({
 
 export const selectAllUsers = (state) => state.users;
 
-// Filter By User ID 
 export const selectUserById = (state, userId) =>
     state.users.find(user => user.id === userId)
 
